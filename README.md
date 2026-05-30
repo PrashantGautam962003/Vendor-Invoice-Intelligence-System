@@ -165,9 +165,11 @@ inventory-invoice-analytics/
 
 
 
-# Author & Contact
-* **Name:** Prashant Gautam
-* **Email:** prashantgautam962003@gmail.com
-* **LinkedIn:** https://www.linkedin.com/in/prashant-gautam-22b123281/
+## Author & Contact
 
+| Contact Method | Details |
+| :--- | :--- |
+| **Name** | Prashant Gautam |
+| **Email** | prashantgautam962003@gmail.com |
+| **LinkedIn** | [Prashant Gautam](https://www.linkedin.com/in/prashant-gautam-22b123281/) |
 
