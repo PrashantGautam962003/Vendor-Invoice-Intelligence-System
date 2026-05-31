@@ -1,8 +1,17 @@
+import os
 import joblib
 import pandas as pd
 
-MODEL_PATH = "C:/Users/prash/machine_learning_project/models/predict_freight_model.pkl"
+# 1. Dynamically find the folder where this python script lives (e.g., .../inference)
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 
+# 2. Go up one level to the project root, then down into your models folder
+MODEL_PATH = os.path.join(
+    CURRENT_DIR,
+    "..",
+    "models",
+    "predict_freight_model.pkl"
+)
 
 def load_model(model_path: str = MODEL_PATH):
     """
